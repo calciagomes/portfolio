@@ -1,0 +1,108 @@
+.formacao {
+  background: rgb(46, 45, 45);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.texto,
+.texto2 {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: rgb(95, 93, 93);
+}
+
+.box-preta {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  margin-left: 20px;
+}
+.primeira-caixa {
+  background: rgb(19, 17, 17);
+  height: 200px;
+  position: relative;
+  width: 40%;
+  border-radius: 4px;
+}
+.primeira-caixa::before {
+  content: "";
+  background: yellowgreen;
+  display: block;
+  height: 40px;
+  width: 4px;
+  position: absolute;
+  top: 90px;
+  left: -5px;
+}
+.segunda-caixa {
+  background: rgb(19, 17, 17);
+  height: 200px;
+  position: relative;
+  width: 40%;
+  border-radius: 4px;
+}
+.segunda-caixa::before {
+  content: "";
+  background: yellowgreen;
+  display: block;
+  height: 40px;
+  width: 4px;
+  position: absolute;
+  top: 90px;
+  left: -5px;
+}
+
+.terceira-caixa {
+  background: rgb(19, 17, 17);
+  height: 200px;
+  position: relative;
+  width: 40%;
+  border-radius: 4px;
+}
+.terceira-caixa::before {
+  content: "";
+  background: yellowgreen;
+  display: block;
+  height: 40px;
+  width: 4px;
+  position: absolute;
+  top: 90px;
+  left: -5px;
+}
+h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 50px;
+}
+#for {
+  opacity: 0.7;
+  font-size: 7rem;
+  text-transform: uppercase;
+  margin-top: 300px;
+  margin-left: 10px;
+}
+#span {
+  color: white;
+}
+#cur {
+  padding: 20px 40px;
+}
+p,
+span {
+  color: rgb(95, 93, 93);
+}
+.cursos {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  gap: 120px;
+  padding: 20px 40px;
+}
+.idiomas {
+  padding: 20px 40px;
+}
+#h1,
+#h22 {
+  color: rgb(95, 93, 93);
+}

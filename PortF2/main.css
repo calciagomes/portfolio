@@ -1,0 +1,13 @@
+#img1 {
+  margin-left: 60px;
+  height: 300px;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 200px;
+  align-items: center;
+}
+h1 {
+  font-size: 3rem;
+}
